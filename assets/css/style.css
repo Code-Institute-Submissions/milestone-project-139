@@ -18,19 +18,22 @@ h4{
     color: #555555;
 }
 
-#logo{
-    float: left;
-    font-size: 280%;
-}
+
+/* ----- Header -----*/
 
 #menu{
     font-size: 110%;
+    font-family: Oswald;
+    text-transform: capitalize;
     list-style-type: none;
     letter-spacing: 4px;
 }
 
-#logo, {
+#logo {
+    float: left;
+    font-size: 280%;
     line-height: 75px;
+    margin-left: 20px;
 }
 
 #menu li {
@@ -51,10 +54,24 @@ h4{
     border-bottom: 1px solid white;
 }
 
+
+/* -----Nav Bar----- */
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: gray; 
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+
 /* ----- Hero Image -----*/
 
 .callout-container {
-    height: 100vh;
+    height: 500px;
     width: 100%;
 
     background: no-repeat bottom right fixed; 
@@ -71,9 +88,10 @@ h4{
 }
 
 #hero-image{
-    height:600px;
+    height:500px;
     width: 100%;
     background: url("../images/southbay-1.jpg") no-repeat center center;
+    background-size: cover;
   
     
     animation-name: hero-zoom;
@@ -82,7 +100,7 @@ h4{
 }
 
 #hero-outer{
-    height:600px;
+    height:500px;
     width: 100%;
     overflow: hidden;
 }
@@ -97,20 +115,53 @@ h4{
 }
 
 
-/* -----Nav Bar----- */
-.navbar {
-    margin-bottom: 0;
-    border: 0;
-    width: 100%;
-    background-color: gray;
-    
+/* -----Specialists -----*/
+
+.container-specialists {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    text-align: center;
 }
 
-.navbar .navbar-toggler {
-    border: 0;
+.specialists-header {
+    text-align: center;
 }
 
-.navbar .navbar-nav a {
-    font-weight: bold;
+.p-text {
+    text-align: left;
 }
 
+
+/* -----Footer----- */
+
+.container-wrapper--gray {
+    background-color: #6c757d;
+    color: white;
+}
+
+.container-wrapper--gray h4 {
+    color: white;
+}
+
+#footer-details {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    font-size: 18px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #235384;
+}
