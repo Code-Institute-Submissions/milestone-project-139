@@ -29,7 +29,7 @@ h4{
     letter-spacing: 4px;
 }
 
-#logo, #menu{
+#logo, {
     line-height: 75px;
 }
 
@@ -40,15 +40,15 @@ h4{
 
 #menu a {
     text-decoration: none;
-    color: inherit;
+    color: white;
 }
 
 #menu a:hover{
-    border-bottom: 1px solid #777777;
+    border-bottom: 1px solid white;
 }
 
 .active{
-    border-bottom: 1px solid #777777;
+    border-bottom: 1px solid white;
 }
 
 /* ----- Hero Image -----*/
@@ -73,6 +73,8 @@ h4{
 #hero-image{
     height:600px;
     width: 100%;
+    background: url("../images/southbay-1.jpg") no-repeat center center;
+  
     
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -110,5 +112,5 @@ h4{
 
 .navbar .navbar-nav a {
     font-weight: bold;
-    
 }
+
