@@ -11,6 +11,13 @@ body{
     color: #777777;
 }
 
+h3{
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #555555;
+}
+
 h4{
     font-family: Oswald;
     text-transform: uppercase;
@@ -18,6 +25,23 @@ h4{
     color: #555555;
 }
 
+h5{
+    font-family: Oswald;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #555555;
+}
+
+.contact-button{
+    background-color: #777777;
+    border: 1px solid #777777;
+    margin-bottom: 50px;
+}
+
+.contact-button:hover{
+    background-color: #777777;
+    border: 3px solid white;
+}
 
 /* ----- Header -----*/
 
@@ -123,12 +147,18 @@ h4{
     text-align: center;
 }
 
-.specialists-header {
+.specialist-header {
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .p-text {
     text-align: left;
+}
+
+.brokers {
+    text-align: center;
+
 }
 
 
@@ -164,4 +194,10 @@ h4{
 
 .social-links li a i:hover {
     background: #235384;
+}
+
+/* -----Featured Listings----- */
+.listings {
+    text-align: center;
+
 }
