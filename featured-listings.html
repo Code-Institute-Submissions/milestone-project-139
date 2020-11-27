@@ -19,9 +19,9 @@
             <span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mr-auto">
-                    <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="/mortgage-calculator.html">Mortgage Calculator</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="featured-listings.html">Featured Listings</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="mortgage-calculator.html">Mortgage Calculator</a></li>
+                    <li class="active nav-item mr-2"><a class="nav-link" href="featured-listings.html">Featured Listings</a></li>
                     <li class="nav-item mr-2"><a class="nav-link" href="/contact">Contact Us</a></li>
                 </ul>
             </div>
@@ -54,7 +54,7 @@
                     </div>
                 </section>
                 <div>
-                    <a class="btn btn-primary contact-button" href="/contact" role="button">Contact Our Agents Now</a>
+                    <a class="btn btn-primary contact-button" href="contact.html" role="button">Contact Our Agents Now</a>
                 </div>
             </div>
         </div>
@@ -65,9 +65,10 @@
         <section class="listings">
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
-                <img src="#" class="rounded mr-3" height="75" width="200">
+                    <img src="assets/images/20103tomlee.jpg" class="rounded mr-3" height="200" width="300">
                     <div class="listing-address">
-                        <h5>123 Main Street</h5>
+                        <h5>20103 Tomlee Ave. <br> Torrance</h5>
+                        <h5>$950,000</h5>
                     </div>
                     <div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -75,12 +76,12 @@
                             voluptate cumque natus illum nostrum. Accusamus dicta laudantium 
                             perspiciatis repellendus, est nulla animi.
                         </p>
-                        <button type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#detailsModal">Details</button>
-                            <div class="modal fade" id="detailsModal" tabindex="-1" aria-labelledby="detailsLabel" aria-hidden="true">
+                        <button type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#tomleedetailsModal">Details</button>
+                            <div class="modal fade" id="tomleedetailsModal" tabindex="-1" aria-labelledby="tomleedetailsLabel" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-centered">
                                     <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="detailsLabel">Property Details for: 123 Main Street</h5>
+                                        <h5 class="modal-title" id="tomleedetailsLabel">20103 Tomlee Ave., Torrance</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                         </button>
@@ -88,10 +89,14 @@
                                     <div class="modal-body">
                                         <h6  class="details-header"> Price: $950,000</h6>
                                             <p>
+                                                Type: Single Family Residence (SFR) <br>
                                                 Bedrooms: 3 <br>
                                                 Bathrooms: 2.5 <br>
-                                                Sq Feet: 1,750 <br>
+                                                Heating: Central <br>
+                                                Cooling: Central <br>
+                                                Sq. Feet: 1,750 <br>
                                                 Lot Size: 6,000 <br>
+                                                Price per Sq. Foot: $519
                                             </p> 
                                     </div>
                                     <div class="modal-footer">
@@ -101,19 +106,18 @@
                                 </div>
                                 </div>
 
-                        <button type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#streetModal">Street View</button>
-                            <div class="modal fade" id="streetModal" tabindex="-1" aria-labelledby="streetLabel" aria-hidden="true">
+                        <button type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#tomleestreetModal">Street View</button>
+                            <div class="modal fade" id="tomleestreetModal" tabindex="-1" aria-labelledby="tomleestreetLabel" aria-hidden="true">
                                 <div class="modal-dialog modal-lg modal-dialog-centered">
                                     <div class="modal-content">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="streetLabel">Street View</h5>
+                                        <h5 class="modal-title" id="tomleestreetLabel">Street View</h5>
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                        <iframe src="https://www.google.com/maps/embed?pb=!4v1606487368593!6m8!1m7!1sR2IfujJhJm6ZaLmTBDDNFg!2m2!1d33.71765217830428!2d-118.2937400035964!3f113.98901!4f0!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                                    </div>
+                                        <iframe src="https://www.google.com/maps/embed?pb=!4v1606516549156!6m8!1m7!1syGaB8JEvfkBEnBBhWZmcgw!2m2!1d33.84926915415705!2d-118.3767111490038!3f29.288064134003747!4f12.640333368567397!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>                                    </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                                     </div>
@@ -124,9 +128,10 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                <img src="#" class="rounded mr-3" height="75" width="200">
+                    <img src="assets/images/20103tomlee.jpg" class="rounded mr-3" height="200" width="300">
                     <div class="listing-address">
-                        <h5>123 Main Street, Any Town</h5>
+                        <h5>20103 Tomlee Ave. <br> Torrance</h5>
+                        <h5>$950,000</h5>
                     </div>
                     <div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -134,14 +139,62 @@
                             voluptate cumque natus illum nostrum. Accusamus dicta laudantium 
                             perspiciatis repellendus, est nulla animi.
                         </p>
-                    </div>
-                    <hr>
-                </div>
+                        <button type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#tomleedetailsModal">Details</button>
+                            <div class="modal fade" id="tomleedetailsModal" tabindex="-1" aria-labelledby="tomleedetailsLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="tomleedetailsLabel">20103 Tomlee Ave., Torrance</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h6  class="details-header"> Price: $950,000</h6>
+                                            <p>
+                                                Type: Single Family Residence (SFR) <br>
+                                                Bedrooms: 3 <br>
+                                                Bathrooms: 2.5 <br>
+                                                Heating: Central <br>
+                                                Cooling: Central <br>
+                                                Sq. Feet: 1,750 <br>
+                                                Lot Size: 6,000 <br>
+                                                Price per Sq. Foot: $519
+                                            </p> 
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
 
+                        <button type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#tomleestreetModal">Street View</button>
+                            <div class="modal fade" id="tomleestreetModal" tabindex="-1" aria-labelledby="tomleestreetLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="tomleestreetLabel">Street View</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!4v1606516549156!6m8!1m7!1syGaB8JEvfkBEnBBhWZmcgw!2m2!1d33.84926915415705!2d-118.3767111490038!3f29.288064134003747!4f12.640333368567397!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+                        <hr>
+                    </div>
+                </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                <img src="#" class="rounded mr-3" height="75" width="200">
+                    <img src="assets/images/20103tomlee.jpg" class="rounded mr-3" height="200" width="300">
                     <div class="listing-address">
-                        <h5>123 Main Street, Any Town</h5>
+                        <h5>20103 Tomlee Ave. <br> Torrance</h5>
+                        <h5>$950,000</h5>
                     </div>
                     <div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -149,44 +202,63 @@
                             voluptate cumque natus illum nostrum. Accusamus dicta laudantium 
                             perspiciatis repellendus, est nulla animi.
                         </p>
-                    </div>
-                    <hr>
-                </div>
-              
-                <div class="col-12 col-md-6 col-lg-4">
-                <img src="#" class="rounded mr-3" height="75" width="200">
-                    <div class="listing-address">
-                        <h5>123 Main Street, Any Town</h5>
-                    </div>
-                    <div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Magni possimus incidunt iure quaerat sint maiores a repellat,
-                            voluptate cumque natus illum nostrum. Accusamus dicta laudantium 
-                            perspiciatis repellendus, est nulla animi.
-                        </p>
-                    </div>
-                    <hr>
-                </div>
+                        <button type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#tomleedetailsModal">Details</button>
+                            <div class="modal fade" id="tomleedetailsModal" tabindex="-1" aria-labelledby="tomleedetailsLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="tomleedetailsLabel">20103 Tomlee Ave., Torrance</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h6  class="details-header"> Price: $950,000</h6>
+                                            <p>
+                                                Type: Single Family Residence (SFR) <br>
+                                                Bedrooms: 3 <br>
+                                                Bathrooms: 2.5 <br>
+                                                Heating: Central <br>
+                                                Cooling: Central <br>
+                                                Sq. Feet: 1,750 <br>
+                                                Lot Size: 6,000 <br>
+                                                Price per Sq. Foot: $519
+                                            </p> 
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
 
-                <div class="col-12 col-md-6 col-lg-4">
-                <img src="#" class="rounded mr-3" height="75" width="200">
-                    <div class="listing-address">
-                        <h5>123 Main Street, Any Town</h5>
+                        <button type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#tomleestreetModal">Street View</button>
+                            <div class="modal fade" id="tomleestreetModal" tabindex="-1" aria-labelledby="tomleestreetLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="tomleestreetLabel">Street View</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!4v1606516549156!6m8!1m7!1syGaB8JEvfkBEnBBhWZmcgw!2m2!1d33.84926915415705!2d-118.3767111490038!3f29.288064134003747!4f12.640333368567397!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+                        <hr>
                     </div>
-                    <div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Magni possimus incidunt iure quaerat sint maiores a repellat,
-                            voluptate cumque natus illum nostrum. Accusamus dicta laudantium 
-                            perspiciatis repellendus, est nulla animi.
-                        </p>
-                    </div>
-                    <hr>
                 </div>
-
+                <hr>
                 <div class="col-12 col-md-6 col-lg-4">
-                <img src="#" class="rounded mr-3" height="75" width="200">
+                    <img src="assets/images/20103tomlee.jpg" class="rounded mr-3" height="200" width="300">
                     <div class="listing-address">
-                        <h5>123 Main Street, Any Town</h5>
+                        <h5>20103 Tomlee Ave. <br> Torrance</h5>
+                        <h5>$950,000</h5>
                     </div>
                     <div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -194,6 +266,181 @@
                             voluptate cumque natus illum nostrum. Accusamus dicta laudantium 
                             perspiciatis repellendus, est nulla animi.
                         </p>
+                        <button type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#tomleedetailsModal">Details</button>
+                            <div class="modal fade" id="tomleedetailsModal" tabindex="-1" aria-labelledby="tomleedetailsLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="tomleedetailsLabel">20103 Tomlee Ave., Torrance</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h6  class="details-header"> Price: $950,000</h6>
+                                            <p>
+                                                Type: Single Family Residence (SFR) <br>
+                                                Bedrooms: 3 <br>
+                                                Bathrooms: 2.5 <br>
+                                                Heating: Central <br>
+                                                Cooling: Central <br>
+                                                Sq. Feet: 1,750 <br>
+                                                Lot Size: 6,000 <br>
+                                                Price per Sq. Foot: $519
+                                            </p> 
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+
+                        <button type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#tomleestreetModal">Street View</button>
+                            <div class="modal fade" id="tomleestreetModal" tabindex="-1" aria-labelledby="tomleestreetLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="tomleestreetLabel">Street View</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!4v1606516549156!6m8!1m7!1syGaB8JEvfkBEnBBhWZmcgw!2m2!1d33.84926915415705!2d-118.3767111490038!3f29.288064134003747!4f12.640333368567397!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+                        <hr>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="assets/images/20103tomlee.jpg" class="rounded mr-3" height="200" width="300">
+                    <div class="listing-address">
+                        <h5>20103 Tomlee Ave. <br> Torrance</h5>
+                        <h5>$950,000</h5>
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Magni possimus incidunt iure quaerat sint maiores a repellat,
+                            voluptate cumque natus illum nostrum. Accusamus dicta laudantium 
+                            perspiciatis repellendus, est nulla animi.
+                        </p>
+                        <button type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#tomleedetailsModal">Details</button>
+                            <div class="modal fade" id="tomleedetailsModal" tabindex="-1" aria-labelledby="tomleedetailsLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="tomleedetailsLabel">20103 Tomlee Ave., Torrance</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h6  class="details-header"> Price: $950,000</h6>
+                                            <p>
+                                                Type: Single Family Residence (SFR) <br>
+                                                Bedrooms: 3 <br>
+                                                Bathrooms: 2.5 <br>
+                                                Heating: Central <br>
+                                                Cooling: Central <br>
+                                                Sq. Feet: 1,750 <br>
+                                                Lot Size: 6,000 <br>
+                                                Price per Sq. Foot: $519
+                                            </p> 
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+
+                        <button type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#tomleestreetModal">Street View</button>
+                            <div class="modal fade" id="tomleestreetModal" tabindex="-1" aria-labelledby="tomleestreetLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="tomleestreetLabel">Street View</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!4v1606516549156!6m8!1m7!1syGaB8JEvfkBEnBBhWZmcgw!2m2!1d33.84926915415705!2d-118.3767111490038!3f29.288064134003747!4f12.640333368567397!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+                        <hr>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img src="assets/images/20103tomlee.jpg" class="rounded mr-3" height="200" width="300">
+                    <div class="listing-address">
+                        <h5>20103 Tomlee Ave. <br> Torrance</h5>
+                        <h5>$950,000</h5>
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Magni possimus incidunt iure quaerat sint maiores a repellat,
+                            voluptate cumque natus illum nostrum. Accusamus dicta laudantium 
+                            perspiciatis repellendus, est nulla animi.
+                        </p>
+                        <button type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#tomleedetailsModal">Details</button>
+                            <div class="modal fade" id="tomleedetailsModal" tabindex="-1" aria-labelledby="tomleedetailsLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="tomleedetailsLabel">20103 Tomlee Ave., Torrance</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h6  class="details-header"> Price: $950,000</h6>
+                                            <p>
+                                                Type: Single Family Residence (SFR) <br>
+                                                Bedrooms: 3 <br>
+                                                Bathrooms: 2.5 <br>
+                                                Heating: Central <br>
+                                                Cooling: Central <br>
+                                                Sq. Feet: 1,750 <br>
+                                                Lot Size: 6,000 <br>
+                                                Price per Sq. Foot: $519
+                                            </p> 
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+
+                        <button type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#tomleestreetModal">Street View</button>
+                            <div class="modal fade" id="tomleestreetModal" tabindex="-1" aria-labelledby="tomleestreetLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg modal-dialog-centered">
+                                    <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="tomleestreetLabel">Street View</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!4v1606516549156!6m8!1m7!1syGaB8JEvfkBEnBBhWZmcgw!2m2!1d33.84926915415705!2d-118.3767111490038!3f29.288064134003747!4f12.640333368567397!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+                        <hr>
                     </div>
                 </div>
             </div>
@@ -204,7 +451,7 @@
 
     <!----- Footer ----->
     <footer class="container-fluid container-wrapper--gray">
-    <div id="footer-details" class="row">
+        <div id="footer-details" class="row">
         <div class="col-sm-4">
             <h4>Company</h4>
             <p class="inline-block">
@@ -217,9 +464,17 @@
         <div class="col-sm-4">
             <h4>Resources</h4>
             <p class="inline-block">
-               Buying Basics 
-              <br> Mortgage Calculator
-              <br> Pre-Qualification List
+               <a href="mortgage-calculator.html" class="resources-link" >Mortgage Calculator</a>
+               <br>
+               Buying Basics Toolkit  
+               <a href="assets/resources/homebuyingbasics.pdf" target="_blank" class="buyingbasics">
+                    <i class="fa fa-download" aria-hidden="true"></i>
+                </a>
+                <br>
+                Pre-Qualification Checklist  
+                <a href="assets/images/pre-qual-checklist.png" target="_blank" class="buyingbasics">
+                    <i class="fa fa-download" aria-hidden="true"></i>
+                </a>
             </p>
         </div>
         
@@ -264,7 +519,7 @@
                 </ul>
         </div>
     </div>
-</footer>
+    </footer>
  
  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
 crossorigin="anonymous"></script>
