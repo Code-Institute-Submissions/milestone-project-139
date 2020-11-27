@@ -20,8 +20,8 @@
             <span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mr-auto">
-                    <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="/our-offices">Our Offices</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="active nav-item mr-2"><a class="nav-link" href="/mortgage-calculator.html">Mortgage Calculator</a></li>
                     <li class="nav-item mr-2"><a class="nav-link" href="featured-listings.html">Featured Listings</a></li>
                     <li class="nav-item mr-2"><a class="nav-link" href="/contact">Contact Us</a></li>
                 </ul>
@@ -32,39 +32,35 @@
 
 
 
-    <!----- Featured Listings Header ----->
+    <!----- Page Header ----->
         <div class="container-wrapper">
             <div class="container container-specialists">
                 <section>
                     <div class="row">
                         <div class="col-12 specialist-header">
-                            <h3>Calculators</h3>
+                            <h3>Mortgage Calculator</h3>
                         </div>
                         <div class="col-12 specialist-header">
-                            <h5>For the Southbay's most discerning buyers</h5>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 p-text">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                Magni possimus incidunt iure quaerat sint maiores a repellat,
-                                voluptate cumque natus illum nostrum. Accusamus dicta laudantium 
-                                perspiciatis repellendus, est nulla animi.
-                            </p>
+                            <h5>Use this mortgage calculator to estimate your monthly payments.</h5>
                         </div>
                     </div>
                 </section>
                 <div>
-                    <a class="btn btn-primary contact-button" href="/contact" role="button">Contact Our Agents Now</a>
+                    <a class="btn btn-primary contact-button" href="contact.html" role="button">Contact Our Agents Now</a>
                 </div>
             </div>
         </div>
     
-    <!----- Featured Listings ----->
-
+    <!----- Calculator Widget  ----->
     <section>
-    <iframe src="https://www.google.com/maps/embed?pb=!4v1606153244672!6m8!1m7!1sR2IfujJhJm6ZaLmTBDDNFg!2m2!1d33.71765217830428!2d-118.2937400035964!3f113.98901!4f0!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-   </section>
+        <script src="https://usmortgagecalculator.org/widget/2.0/js/amortizationcalc-loader.min.js" type="text/javascript"></script>
+        <div class="calc-widget" id="acww-widgetwrapper" style="min-width:250px;width:100%;">
+            <div id="acww-widget" style="position:relative;padding-top:0;padding-bottom:280px;height:0;overflow:hidden;"></div>
+            <div id="acww-more" style="background:#333;font:normal 13px/1 Helvetica, Arial, Verdana, Sans-serif;padding:10px 0;color:#FFF;text-align:center;width:100%;clear:both;margin:0;clear:both;float:left;">
+                <a style="background:#333;color:#FFF;text-decoration:none;border-bottom:1px dotted #ccc;" href="https://usmortgagecalculator.org/" title="Mortgage Calculator" rel="nofollow" target="_blank">Provided by: usmortgagecalculator.org</a>
+            </div>
+        </div>
+    </section>
 
     
     <!----- Footer ----->
@@ -82,10 +78,14 @@
         <div class="col-sm-4">
             <h4>Resources</h4>
             <p class="inline-block">
-               Buying Basics 
-              <br> Mortgage Calculator
-              <br> Pre-Qualification List
+               Buying Basics Toolkit  
+               <a href="assets/resources/homebuyingbasics.pdf" target="_blank" class="buyingbasics">
+                    <i class="fa fa-download" aria-hidden="true"></i>
+                </a>
+                <br>
+                <a href="mortgage-calculator.html" class="resources-link" >Mortgage Calculator</a>
             </p>
+
         </div>
         
         <div class="col-sm-4">

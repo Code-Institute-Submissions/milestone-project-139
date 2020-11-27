@@ -32,6 +32,11 @@ h5{
     color: #555555;
 }
 
+h6{
+    text-align: center;
+    font-weight: bold;
+}
+
 .contact-button{
     background-color: #777777;
     border: 1px solid #777777;
@@ -71,11 +76,11 @@ h5{
 }
 
 #menu a:hover{
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgb(243, 172, 80);
 }
 
 .active{
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgb(243, 172, 80);
 }
 
 
@@ -197,19 +202,47 @@ h5{
 }
 
 .social-links li a i:hover {
-    background: #235384;
+    background: rgb(243, 172, 80);
 }
 
-/* -----Featured Listings----- */
+.buyingbasics i {
+    color: white;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.buyingbasics i:hover {
+    color: rgb(243, 172, 80);
+}
+
+.resources-link {
+    color: white;
+}
+
+.resources-link:hover {
+    color: rgb(243, 172, 80);
+}
+
+/* -----Featured Listings Page----- */
 .listings {
     text-align: center;
-
 }
-
-/* -----Calculators -----*/
-
-
 
 .details-header {
     font-weight: bold;
 }
+
+/* -----Mortgage Calculator Page-----*/
+.calc-widget {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 60px;
+}
+
+
+/* -----Mortgage Calculator Page-----*/
+
