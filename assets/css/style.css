@@ -161,6 +161,10 @@ h5{
 
 }
 
+.team-pic {
+    align-content: center;
+}
+
 
 /* -----Footer----- */
 
@@ -200,4 +204,12 @@ h5{
 .listings {
     text-align: center;
 
+}
+
+/* -----Calculators -----*/
+
+
+
+.details-header {
+    font-weight: bold;
 }
