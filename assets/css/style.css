@@ -231,11 +231,16 @@ h6{
 /* -----Featured Listings Page----- */
 .listings {
     text-align: center;
+    padding-bottom: 60px;
 }
 
 .details-header {
     font-weight: bold;
     color: rgb(243, 172, 80);
+}
+
+.prop-details {
+    text-align: left;
 }
 
 /* -----Mortgage Calculator Page-----*/
