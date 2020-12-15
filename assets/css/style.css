@@ -246,6 +246,14 @@ h6{
     text-align: left;
 }
 
+#map {
+    height: 400px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
 /* -----Mortgage Calculator Page-----*/
 .calc-widget {
     padding-left: 15px;

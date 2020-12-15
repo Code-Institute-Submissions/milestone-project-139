@@ -10,7 +10,7 @@
   - A first time visitor should be able to quickly see that Sedgewick specializes in buyer’s representation of a real estate transaction. This is important because it will help pinpoint the message of the site to the desired client, efficiently eliminating the need to continue browsing the site if the first time visitor is a person interested in selling their real estate. 
   - A first time visitor should be able to search through some real estate listings in order to get an idea of the type of buying options available in the area. 
 - A first time visitor should easily be able to determine what price point they are most comfortable with in buying their next property. 
-  - A first time visitor will easily be able to contact Sedgewick real estate broker agents to begin their real estate search, making their preferences known and providing as much detail as they want about their search.
+- A first time visitor will easily be able to contact Sedgewick real estate broker agents to begin their real estate search, making their preferences known and providing as much detail as they want about their search.
 - A first time visitor should be able to access resources designed to inform them about and facilitate the purchase of their next home. 
 
 ### Returning Visitor Goals
@@ -24,7 +24,7 @@
   #### Imagery 
   - Imagery is important. The large, background hero image on the main page is designed to be impactful and clearly identify the area as a Southern California community. This is achieved with an overview shot of the beachside of the Southbay community. A more powerful impact is achieved by adding a forward hero-zoom animation to the image.
 - Header imagery is intentionally limited throughout the site in order to focus the visitor’s attention to the content and purpose of each page. 
-  - Photos of real estate properties for sale are important to draw the visitor’s attention and peak their interest in contacting Sedgewick.
+- Photos of real estate properties for sale are important to draw the visitor’s attention and peak their interest in contacting Sedgewick.
 
 ### Wireframe
 - View complete wireframe [here]( .wireframe/sedgewick-wireframe.pdf)
@@ -54,7 +54,7 @@
    - Google fonts were used to import the Oswald font family into the style.css file which is used on all pages throughout the project.
 
 [Google Maps:]( https://www.google.com/maps)
-   - Google Maps were used to import street views for all featured listings.
+   - Google Maps were used to add interactive map within Featured Listings page and to import street views for all featured listings.
 
 [Font Awesome:](https://fontawesome.com/start)
    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
@@ -107,10 +107,11 @@
 	- A clearly identified Contact Us page allows the visitor to easily make a contact request. The contact form within this page allows the visitor to enter details about the property they are looking for, including a section of free text area where they can write in with as much detail as they like. 
 
 
+
 ## Deployment to Github Pages
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate your GitHub Repository. For this particular project the name is **milestone-project-1**.
+1. Log in to GitHub and locate your GitHub Repository. For this particular project the name is **milestone-project-2**.
 2. At the top of the Repository, find the "Settings" button and select it. 
 3. Scroll down the Settings page and find "GitHub Pages" section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
@@ -123,7 +124,8 @@ The project was deployed to GitHub Pages using the following steps...
 ### Code
  - [Bootstrap:](https://getbootstrap.com/) Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
  - [JQuery:](https://jquery.com/) jQuery was used to facilitate functionality of Bootstrap and other functions.
- -[EmailJS]( https://www.emailjs.com/) EmailJS was used to facilitate sending contact requests through to desired email. 
+ - [EmailJS]( https://www.emailjs.com/) EmailJS was used to facilitate sending contact requests through to desired email. 
+ - [Google Maps:]( https://www.google.com/maps) Google Maps was used to add interactive map within Featured Listings page and to import street views for all featured listings.
 ### Content
   - As this is a fictitious company, all content, except as otherwise already noted here, was written by the developer.
   
