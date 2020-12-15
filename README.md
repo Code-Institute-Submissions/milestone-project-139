@@ -4,6 +4,8 @@
 
 # Sedgewick Real Estate Company Website
 
+View site [here](https://katyacano.github.io/milestone-project-2/)
+
 ### First Time Visitor Goals
   - A first time visitor should be able to clearly identify Sedgewick as a real estate sales firm specializing in buyers’ representation and doing business in the Southbay area of Southern California.
   - A first time visitor should be able to easily navigate throughout the site in a simple and intuitive way. 
